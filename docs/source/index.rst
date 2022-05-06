@@ -7,6 +7,6 @@ Content
 =======
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
 
-   downloading
+   pages/downloading
