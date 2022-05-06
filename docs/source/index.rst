@@ -9,4 +9,4 @@ Content
 .. toctree::
    :maxdepth: 3
 
-   pages/downloading
+   downloading
