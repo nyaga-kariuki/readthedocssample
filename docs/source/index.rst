@@ -21,6 +21,6 @@ The code is in Python 3.0 with some SQL used, however one does need to know eith
 .. toctree::
 
 
-   api
+   retrievalfunctions
    
    ...
