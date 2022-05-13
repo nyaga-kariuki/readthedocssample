@@ -23,7 +23,7 @@ This is the function parameters
 * valueinfo: This specifies which values are acceptable for each column name.
 * info: String, which info to collect, the deafult is "*" which will give back all data in database.
 * level: String, level of database to examine. This is very important since 
-* listTitle: DONT KNOW WHAT THIS IS
+* listTitle: 
 
 Output
 ******
@@ -41,4 +41,4 @@ The primary use of these functions is use of this is to find a some pattern in a
     sum,test = findGeneralPattern(patterntestdata,reject, searchData = patterndf, retrieval = False)
     
     
-The sum and test will be as described above
+The sum and test will be as described above. Imporantly, the "list of valuesm" must be in the exact order of the pattern you would like to identify AND the  values of the list must be actual members of the category.
