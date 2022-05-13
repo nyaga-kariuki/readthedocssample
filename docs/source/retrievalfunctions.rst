@@ -24,3 +24,9 @@ This is the function parameters
 * info: String, which info to collect, the deafult is "*" which will give back all data in database.
 * level: String, level of database to examine. This is very important since 
 * listTitle: DONT KNOW WHAT THIS IS
+
+
+Usage
+******
+
+The easies use of this is to
