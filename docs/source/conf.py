@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'KhipuLab'
+copyright = '2022, Khipulab'
+author = 'KhipuLab Team'
 
-release = '0.1'
-version = '0.1.0'
+release = '?'
+version = '?'
 
 # -- General configuration
 
