@@ -28,6 +28,8 @@ This is the function parameters
 Output
 ******
 
+The output is mutch simpler than the the various inputs. It is simply gives a list of the number of matched patterns and a list of said mathced patterns/
+
 Usage
 ******
 
@@ -38,7 +40,7 @@ The primary use of these functions is use of this is to find a some pattern in a
     
     reject = n #depends on your desired accuracy 
 
-    sum,test = findGeneralPattern(patterntestdata,reject, searchData = patterndf, retrieval = False)
+    num-patterns, list-pattern = findGeneralPattern(patterntestdata,reject, searchData = patterndf, retrieval = False)
     
     
 The sum and test will be as described above. Imporantly, the "list of valuesm" must be in the exact order of the pattern you would like to identify AND the  values of the list must be actual members of the category.
