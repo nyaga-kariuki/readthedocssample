@@ -10,7 +10,7 @@ Content
 Description of Package
 =====================
 
-This is a Python package intented for use of Khipu investigation. Sponsored by `Khipu Lab <https://nyaga-kariuki.github.io/khipulab.github.io>`_, this python package has tools to retrieve indexed Khipus from online database by pattern recogniztion or label along with other useful tools. The intended audience is anyone who is doing research on khipus and is using the online database. Below is a basic outline of hte functions and thier use. The original functions can be found `here <https://github.com/khipulab/khipulab>`_. 
+This is a Python package intented for use of Khipu investigation. Sponsored by ` <https://nyaga-kariuki.github.io/khipulab.github.io>`_, this python package has tools to retrieve indexed Khipus from online database by pattern recogniztion or label along with other useful tools. The intended audience is anyone who is doing research on khipus and is using the online database. Below is a basic outline of hte functions and thier use. The original functions can be found `here <https://github.com/khipulab/khipulab>`_. 
 
 Introduction to Package
 =======================
