@@ -1,1 +1,5 @@
+Khipu Insert Functions
+##########################
 
+Introduction
+*************
