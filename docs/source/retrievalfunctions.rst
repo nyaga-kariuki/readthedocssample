@@ -23,12 +23,16 @@ This is the function parameters
 * valueinfo: This specifies which values are acceptable for each column name.
 * info: String, which info to collect, the deafult is "*" which will give back all data in database.
 * level: String, level of database to examine. This is very important since 
-* listTitle: 
+* listTitle: Boolean, should remain untouched
 
 Output
 ******
 
-The output is mutch simpler than the the various inputs. It is simply gives a list of the number of matched patterns and a list of said mathced patterns/
+The output is mutch simpler than the the various inputs. There are two out parameters: match and found. "match" gives a boolean describes if matches were found and "found" is list of mathces if found. When deploying the function, one has two options dispalyed below.
+::
+    discovered-pattern, list-pattern = findGeneralPattern(inputs...) # will store the match output in discovered-pattern and the found term in list-patterm
+    output = findGeneralPattern(inputs...) # will create a 2-tuple object, with match in first column and found in second
+    
 
 Usage
 ******
@@ -40,7 +44,7 @@ The primary use of these functions is use of this is to find a some pattern in a
     
     reject = n #depends on your desired accuracy 
 
-    num-patterns, list-pattern = findGeneralPattern(patterntestdata,reject, searchData = patterndf, retrieval = False)
+    found-pattern, list-pattern = findGeneralPattern(patterntestdata,reject, searchData = patterndf, retrieval = False)
     
     
 The sum and test will be as described above. Imporantly, the "list of valuesm" must be in the exact order of the pattern you would like to identify AND the  values of the list must be actual members of the category.
